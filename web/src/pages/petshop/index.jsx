@@ -14,7 +14,6 @@ function index() {
               src="https://img.freepik.com/vetores-premium/logotipo-fofinho-da-petshop-com-gato-e-cachorro_454510-56.jpg"
               className="img-fluid imagem-logo"
             />
-
             <b>Petlove</b>
 
             <div className="icons d-flex">
@@ -29,6 +28,9 @@ function index() {
           </div>
           <div className="col-10">
             <h5>Produtos</h5>
+
+            <br />
+
             <div className="row">
               {[1, 2, 3, 4, 5, 6, 7, 11, , 12, 13].map((produto) => (
                 <Card />

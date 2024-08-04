@@ -24,11 +24,11 @@
 }
 
 .product button {
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 2rem;
+    height: 2rem;
     border-radius: 50%;
     position: absolute;
-    top: 55%;
+    top: 57%;
     transform: translateY(-50%);
     right: 5.4rem;
     background-color: green;
