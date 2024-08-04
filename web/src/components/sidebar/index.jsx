@@ -28,6 +28,16 @@ function index() {
             <Product />
           ))}
         </div>
+
+        <div className="row align-items-end footer">
+          <div className="col-12 d-flex justify-content-between align-items-center">
+            <b className="d-inline-block">Total</b>
+            <h3 className="d-inline-block">R$30,00</h3>
+          </div>
+          <button className="btn btn-block btn-lg btn-success rounded-0 h-50 aligh-items-center">
+            Finalizar Compra
+          </button>
+        </div>
       </div>
     </Dock>
   );
