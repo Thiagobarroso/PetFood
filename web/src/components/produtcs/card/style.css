@@ -1,0 +1,39 @@
+.product {
+    margin-bottom: 50px;
+
+}
+
+.product img {
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 20px;
+    max-width: 210px;
+    width: 100%;
+}
+
+
+
+.product small {
+    margin-top: 0;
+}
+
+.product {
+    position: relative;
+    padding-right: 80px; /* Aumente o padding para garantir espaço para o botão */
+}
+
+.product button {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 55%;
+    transform: translateY(-50%);
+    right: 5.4rem;
+    background-color: green;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

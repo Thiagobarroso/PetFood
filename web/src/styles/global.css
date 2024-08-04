@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --primary: #06f6a0
+    --secundary: #Fa643d
+}
+
+html,
+body {
+    height: 100%;
+    overflow-x: hidden;
+    font-family: 'Open Sans';
+    letter-spacing: -0.03em;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='password'],
+input[type='date']{
+    font-size: 15px;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='password'],
+input[type='date']{
+    font-size: 15px;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='password'],
+input[type='date'],
+input[type='text']:disabled,
+input[type='email']:disabled,
+input[type='password']:disabled,
+input[type='date']:disabled{
+    background-color: #f6f5f5;
+    border: 0.5px solid #dcdcdc;
+    color: #626264;
+    outline: none;
+}
+
+.bg-primary {
+    background-color:  #06f6a0 !important;
+}
+
+.btn-secundary,
+.btn-secundary:focus,
+.btn-secundary:active,
+.btn-secundary:disabled,
+.btn-secundary:hover {
+    background-color: #Fa643d;
+    border-color: #Fa643d;
+    color: #f6f5f5;
+}
+
+.btn {
+    font-size: 15px;
+}
+
+.box {
+    background-color: white;
+    box-shadow: 0px 0px 11px 6px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+    display: inline-block;
+    padding: 50px;
+}
+
+.img-ilustration{
+ max-width: 31.25rem;
+}
+
+
+.badge-produto {
+    background-color: #F0FDF4;
+    color: #15803D;
+    border: 1px solid #C4EBD2;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 4px;
+    margin-bottom: 0;
+}
+
+.badge {
+    background-color:#EEF2FF;
+    color: #4338CA;
+    border: 1px solid #DDDFFA;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 4px;
+}

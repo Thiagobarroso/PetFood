@@ -1,0 +1,25 @@
+.section-title {
+    font-size: 18px;
+    border-bottom: 3px solid #06f6a0;
+    padding-bottom: 7px;
+    margin: 20px 0;
+    display: inline-block;
+}
+
+.box-sidebar {
+    max-height: 445px;
+    overflow-y: auto;
+}
+
+.box-preco {
+    background-color: #dcdcdc;
+    padding: 25px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.box-preco b{
+    display: flex;
+    font-size: 20px;
+}
+
